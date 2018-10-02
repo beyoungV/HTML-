@@ -1,12 +1,12 @@
 # Notes
-#java
+## java
   https://github.com/iluwatar/java-design-patterns
   
-#java进阶
+### java进阶
 https://github.com/Snailclimb/JavaGuide
 
-#不错的项目
+#### 不错的项目
 https://github.com/badges/shields
 
-#c#写的字幕编辑软件（开源的哦）
+##### c#写的字幕编辑软件（开源的哦）
 https://github.com/SubtitleEdit
