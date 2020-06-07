@@ -1,16 +1,9 @@
 # Notes
 
-## 暴力破解工具 
-  https://github.com/vanhauser-thc/thc-hydra  
-## java
-  https://github.com/iluwatar/java-design-patterns
-  
-### java进阶
-https://github.com/Snailclimb/JavaGuide
 
-#### 不错的项目
-https://github.com/badges/shields
 
-##### C#写的字幕编辑软件（开源的哦）
-https://github.com/SubtitleEdit
+##### 经典算法和数据结构golang中实现(测试用) 3.1kStar
+https://github.com/TheAlgorithms/Go
 
+##### 经典算法和数据结构golang中实现(测试用) 1.7kStar
+https://github.com/arnauddri/algorithms
