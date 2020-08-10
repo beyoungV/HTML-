@@ -25,6 +25,6 @@ RUNOOB.COM
 GOOGLE.COM  
 ~~BAIDU.COM~~  
 
-[带下划线文本]  
+[^带下划线文本]  
 
 
