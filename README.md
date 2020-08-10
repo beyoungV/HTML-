@@ -1,4 +1,4 @@
-# 杂记
+# 
 
 ##### 经典算法和数据结构golang中实现(测试用) 3.1kStar
 https://github.com/TheAlgorithms/Go
