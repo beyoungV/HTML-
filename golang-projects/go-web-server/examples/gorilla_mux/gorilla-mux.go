@@ -16,3 +16,9 @@ func(w http.ResponseWriter, r *http.Request) {
     vars["title"] // the book title slug
     vars["page"] // the page
 }
+
+
+
+
+//将请求处理程序限制为特定的主机名或子域。
+r.HandleFunc("/books/{title}", BookHandler).Host("www.mybookstore.com")
