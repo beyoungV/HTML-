@@ -36,4 +36,9 @@ r.HandleFunc("/secure", SecureHandler).Schemes("https")
 r.HandleFunc("/insecure", InsecureHandler).Schemes("http")
 
 
+//将请求处理程序限制为特定的路径前缀。
+bookrouter := r.PathPrefix("/books").Subrouter()
+bookrouter.HandleFunc("/", AllBooks)
+bookrouter.HandleFunc("/{title}", GetBook)
+
 
