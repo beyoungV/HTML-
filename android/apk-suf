@@ -1,0 +1,13 @@
+//apk文件结构
+1./res
+  资源文件（图片、字符串、颜色、尺寸...）,所有资源都会出现在资源清单文件R.java的索引中。
+
+2.AndroidManifest.xml
+  Android项目的系统清单文件，Android应用的四大组件（Activity、Service、BroadcastReceiver和ContentProvider）均在此配置和声明。
+
+3.classes.dex
+  应用程序的可执行文件，方法数超过65535会分包处理成多个dex文件，dex2jar转成jar包。
+  
+4.resource.arsc
+  资源索引表，描述具有ID值的资源的配置信息。
+  
