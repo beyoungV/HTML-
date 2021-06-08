@@ -1,5 +1,6 @@
 makefile最核心的构建思想，通过一个个"目标"、"依赖"、"命令"来完成整个项目的关联和编译。那么，我们也根据这一思想来看看Gradle是怎么实现的。
-
+$ make  all
+$ make  clean
 
 Gradle识别源文件
 // 普通的Java项目
@@ -24,3 +25,7 @@ Gradle 识别编译目标 task 任务
 : test
 :check
 :build
+$gradle build         // 构建和打包整个项目
+$gradle clean         // 清除之前的构建
+$gradle  test          // 执行测试
+$gradle compileJava   // 编译java
