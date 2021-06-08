@@ -1,0 +1,26 @@
+makefile最核心的构建思想，通过一个个"目标"、"依赖"、"命令"来完成整个项目的关联和编译。那么，我们也根据这一思想来看看Gradle是怎么实现的。
+
+
+Gradle识别源文件
+// 普通的Java项目
+apply plugin:  'java'
+ 
+//Android  Application
+apply plugin:  'com.android.application'
+ 
+//Android  Library
+apply plugin:  'com.android.library'
+
+
+Gradle 识别编译目标 task 任务
+:compileJava
+:processResources
+:classes
+:jar
+:assemble
+:compileTestJava
+:processTestResources
+:testClasses
+: test
+:check
+:build
