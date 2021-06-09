@@ -3,9 +3,14 @@
 -->
 1.预处理
  ```shell
-   gcc -E hello.c -o hello.
-   
+   gcc -E hello.c -o hello.i//预处理程序
+   gcc -E hello.c -o hello.i -Dabc//条件编译，如同#if-endif
    ```
 2.编译
 3.汇编
 4.链接
+
+#define PI 3.14//宏定义
+
+#if 0//条件编译 
+#endif
