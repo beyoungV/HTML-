@@ -22,6 +22,7 @@
    gcc hello.o -o hello//生成可执行文件；"启动代码———>链接器<————库代码"
    
    ```
+//启动代码Linux下主要有crt1.c，crti.c，crtn.c，crtend.c它们设置堆栈等等。
 
 #define PI 3.14//宏定义
 
