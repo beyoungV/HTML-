@@ -1,3 +1,4 @@
+0,1//假，真//不成立，成立
 <!--
 编译步骤：
 -->
@@ -7,8 +8,20 @@
    gcc -E hello.c -o hello.i -Dabc//条件编译，如同#if-endif
    ```
 2.编译
+```shell
+   gcc -S hello.i -o hello.s//预处理程序生成汇编程序
+   
+   ```
 3.汇编
+```shell
+   gcc -c hello.s -o hello.o//汇编程序生成二进制文件
+   
+   ```
 4.链接
+```shell
+   gcc hello.o -o hello//生成可执行文件；"启动代码———>链接器<————库代码"
+   
+   ```
 
 #define PI 3.14//宏定义
 
