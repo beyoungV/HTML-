@@ -1,21 +1,31 @@
-Android SDK
-  Android 10 (Q)
+Golang+React Native做APP的好处
+      1.学好Golang就是真正的跨平台（PC端、服务器、移动端、WEB端）
+      2.不用学java kotlin swift oc等语言
+      3.一套代码双端运行（Golang和React Native都只需要编写一套代码就足够）
+      4.可以实现对应平台只有原生才能实现的功能（React Native真的只适合做界面，做其他的真是只能靠原生或者用类似Golang等语言来实现）
+      5.需要什么功能，编写一次就够了、改bug也极其方便
+不过话说回来，如果你要做的APP仅仅是用来展示数据，那么React Native就能满足你的需求了，不过一旦你需要完成一些比较复杂的事情，那么就必须需要用到原生才行。
 
-Android SDK Platform
-  Android SDK Platform 29
-  Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
-    Android SDK Build-Tools 29.0.2
 
-Android Virtual Device
+//RN依赖的环境配置
+        Android SDK
+          Android 10 (Q)
 
-ANDROID_HOME environment variable
-ANDROID_HOME
-%LOCALAPPDATA%\Android\Sdk
+        Android SDK Platform
+          Android SDK Platform 29
+          Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
+            Android SDK Build-Tools 29.0.2
 
-powershell
-Get-ChildItem -Path Env:\
+        Android Virtual Device
 
-%LOCALAPPDATA%\Android\Sdk\platform-tools
+        ANDROID_HOME environment variable
+        ANDROID_HOME
+        %LOCALAPPDATA%\Android\Sdk
+
+        powershell
+        Get-ChildItem -Path Env:\
+
+        %LOCALAPPDATA%\Android\Sdk\platform-tools
 
 npx react-native init AwesomeProject //generate a new project.创建新项目
 npx react-native init AwesomeProject --version X.XX.X //使用react-native特定版本
