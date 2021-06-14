@@ -1,0 +1,20 @@
+Android SDK
+  Android 10 (Q)
+
+Android SDK Platform
+  Android SDK Platform 29
+  Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
+    Android SDK Build-Tools 29.0.2
+
+Android Virtual Device
+
+ANDROID_HOME environment variable
+ANDROID_HOME
+%LOCALAPPDATA%\Android\Sdk
+
+powershell
+Get-ChildItem -Path Env:\
+
+%LOCALAPPDATA%\Android\Sdk\platform-tools
+
+npx react-native init AwesomeProject //generate a new project.
