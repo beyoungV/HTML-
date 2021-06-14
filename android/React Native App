@@ -18,6 +18,7 @@ Get-ChildItem -Path Env:\
 %LOCALAPPDATA%\Android\Sdk\platform-tools
 
 npx react-native init AwesomeProject //generate a new project.创建新项目
+npx react-native init AwesomeProject --version X.XX.X //使用react-native特定版本
 npx react-native init AwesomeTSProject --template react-native-template-typescript //using typescript.使用Typescipt
 
 adb devices //检测手机连接
