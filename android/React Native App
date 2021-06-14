@@ -18,3 +18,4 @@ Get-ChildItem -Path Env:\
 %LOCALAPPDATA%\Android\Sdk\platform-tools
 
 npx react-native init AwesomeProject //generate a new project.
+npx react-native init AwesomeTSProject --template react-native-template-typescript //using typescript
