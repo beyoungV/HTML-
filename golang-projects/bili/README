@@ -1,0 +1,8 @@
+https://github.com/JimmyZhangJW/biliStreamClient.git
+https://github.com/faiface/beep.git
+
+//golang--gomod
+require(
+  github.com/JimmyZhangJW/biliStreamClient
+  github.com/faiface/beep
+)
